@@ -1,0 +1,68 @@
+body {
+	background-color: green;
+}
+* {
+	color: #ffffff;
+	font: Arial;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#p1 {
+	color: #ffffff;
+	font: 14px Arial;
+	text-decoration: none;
+}
+
+p:first-letter {
+	font: 20px Arial;
+}
+
+#p2 {
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.title {
+	color: yellow;
+	font: Arial;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h2,h3 {
+	color: #00ffff;
+}
+
+a:link {
+	color: #ffc0cb;
+	font: 14px Arial;
+	text-decoration: none;
+}
+a:hover {
+	color: yellow;
+	font: 14px Arial;
+	text-decoration: italic;
+	font-weight: bold;
+}
+
+a:active {
+	color: red;
+	font: 14px Arial;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:visited {
+	color: blue;
+	font: 14px Arial;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+ol li {
+	color: #ffc0cb;
+	font: 14px Arial;
+	text-decoration: none;
+}
