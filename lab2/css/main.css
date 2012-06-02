@@ -1,5 +1,5 @@
 body {
-	background-color: #f0f0f0;
+	background-color: #cccccc;
 }
 
 #wrapper {
@@ -24,7 +24,8 @@ body {
 	width: auto;
 	float: left;
 	margin-left: 2px;
-	line-height: 27px;
+	margin-top: 2px;
+	line-height: 23px;
 }
 
 #nav li a {
@@ -32,10 +33,94 @@ body {
 	font-size: 1em;
 	font-family: Arial, sans-serif;
 	text-decoration: none;
-	line-height: 27px;
+	line-height: 23px;
+	margin-top: 2px;
 	padding: 10px;
 }
 
-#nav li a:hover {
+#nav li:hover {
 	background-color: orange;
+	color: #000000;
+}
+
+#nav li a:hover {
+	color: black;
+}
+
+#image_bg {
+	padding: 10px;
+	box-shadow: 3px 3px 3px 3px #cccccc;
+	-moz-box-shadow: 3px 3px 3px 3px #cccccc;
+	-webkit-box-shadow: 3px 3px 3px 3px #cccccc;
+}
+
+h1 {
+	color: brown;
+	font-weight: bolder;
+	text-transform: uppercase;
+	word-spacing: 5px;
+}
+
+#paragraph_1 {
+	color: #000000;
+	margin-top: 10px;
+	font-family: Arial, sans-serif;
+	font-size: .83em;
+	padding: 10px;
+	border: solid 1px #cccccc;
+	box-shadow: 3px 3px 3px 3px #cccccc;
+	-moz-box-shadow: 3px 3px 3px 3px #cccccc;
+	-webkit-box-shadow: 3px 3px 3px 3px #cccccc;
+}
+
+#paragraph_2 {
+	color: #000000;
+	margin-top: 10px;
+	font-family: Arial, sans-serif;
+	font-size: .83em;
+	padding: 10px;
+	border: solid 1px #cccccc;
+	box-shadow: 3px 3px 3px 3px #cccccc;
+	-moz-box-shadow: 3px 3px 3px 3px #cccccc;
+	-webkit-box-shadow: 3px 3px 3px 3px #cccccc;
+}
+
+#paragraph_3 {
+	color: #000000;
+	margin-top: 10px;
+	font-family: Arial, sans-serif;
+	font-size: .83em;
+	padding: 10px;
+	border: solid 1px #cccccc;
+	box-shadow: 3px 3px 3px 3px #cccccc;
+	-moz-box-shadow: 3px 3px 3px 3px #cccccc;
+	-webkit-box-shadow: 3px 3px 3px 3px #cccccc;
+}
+
+h2 {
+	color: #FF6600;
+	font-variant: small-caps;
+	padding: 5px;
+	padding-left: 20px;
+	border-left: solid 15px #BD8100;
+}
+
+h3 {
+	color: brown;
+	text-indent: 10px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	text-decoration: blink;
+	letter-spacing: 5px;
+}
+
+#footer {
+	background-color: #000000;
+	font-size: 1em;
+	font: Arial, sans-serif;
+	color: #f0f0f0;
+	width: 960px;
+	padding: 10px;
+	height: auto;
+	text-align: center;
 }
