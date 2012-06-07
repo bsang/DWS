@@ -6,8 +6,10 @@ h1, h2, h3, h4, h5, h6, p, body {
 	padding: 0;
 }
 
+/* ========================= Background Image and Color =========================*/
+
 body {
-	background: url('../images/header_bg.jpg') repeat-x #111;
+	background: url('../images/header_bg.jpg') repeat-x #f0f0f0;
 	color: #ccc;
 }
 
@@ -16,6 +18,7 @@ body {
 #page-wrapper {
 	width: 960px;
 	margin: 0 auto;
+	background: white;
 }
 
 /* ========================= Header =========================*/
@@ -24,11 +27,13 @@ header {
 	width: 960px;
 	height: 150px;
 	overflow: hidden;
+	margin: 0 auto;
 }
 
 header h1 {
 	float: left;
-	color: #fff
+	color: #fff;
+	font-size: 40px
 }
 
 header ul {
@@ -45,14 +50,35 @@ header ul li {
 	text-decoration: none;
 	list-style: none;
 }
-/* =========================  =========================*/
+/* ========================= Heading 1 =========================*/
+
+#cta {
+
+	font-family: Arial, sans-serif;
+	color: #061917;
+	padding: 10px;
+	line-height: 25px;
+}
+
+/* ========================= Section =========================*/
+
+section {
+	font-family: Arial, sans-serif;
+	float: left
+}
+
+/* ========================= side =========================*/
+
+aside {
+	width: 360px;
+	float: left;
+}
 
 /* =========================  =========================*/
 
 /* =========================  =========================*/
 
-/* =========================  =========================*/
-
-/* =========================  =========================*/
-
-/* =========================  =========================*/
+/* ========================= footer =========================*/
+footer {
+	clear: both;
+}
