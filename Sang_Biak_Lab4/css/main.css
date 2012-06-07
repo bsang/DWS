@@ -1,0 +1,58 @@
+
+/* ========================= Reset Margin & Padding to 0 =========================*/
+
+h1, h2, h3, h4, h5, h6, p, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('../images/header_bg.jpg') repeat-x #111;
+	color: #ccc;
+}
+
+/* ========================= Page Wrapper =========================*/
+
+#page-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* ========================= Header =========================*/
+
+header {
+	width: 960px;
+	height: 150px;
+	overflow: hidden;
+}
+
+header h1 {
+	float: left;
+	color: #fff
+}
+
+header ul {
+	width: 350px;
+	height: 50px;
+	float: right;
+}
+
+header ul li {
+	width: 100px;
+	height: 50px;
+	margin: 0 10px 0 0;
+	float: left;
+	text-decoration: none;
+	list-style: none;
+}
+/* =========================  =========================*/
+
+/* =========================  =========================*/
+
+/* =========================  =========================*/
+
+/* =========================  =========================*/
+
+/* =========================  =========================*/
+
+/* =========================  =========================*/
