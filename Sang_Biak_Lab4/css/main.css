@@ -1,84 +1,270 @@
-
-/* ========================= Reset Margin & Padding to 0 =========================*/
-
-h1, h2, h3, h4, h5, h6, p, body {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 }
 
-/* ========================= Background Image and Color =========================*/
+/* ============== Body ==============*/
 
 body {
-	background: url('../images/header_bg.jpg') repeat-x #f0f0f0;
-	color: #ccc;
-}
-
-/* ========================= Page Wrapper =========================*/
-
-#page-wrapper {
 	width: 960px;
+	font-family: Century Gothic,verdana,arial,helvetica,sans-serif;
 	margin: 0 auto;
-	background: white;
+	background: url(../images/header_bg.jpg) no-repeat #002832;
 }
 
-/* ========================= Header =========================*/
-
+/* ============== Header ==============*/
 header {
 	width: 960px;
-	height: 150px;
-	overflow: hidden;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
-header h1 {
+header section h1 {
 	float: left;
-	color: #fff;
-	font-size: 40px
+	font-family: 'Baumans', cursive;
+	margin-top: 15px;
+	font-size: 2em;
+	color: #72ccda;
+	text-transform: uppercase;
 }
 
-header ul {
-	width: 350px;
-	height: 50px;
+/* ======== Navigation bar ===========*/
+
+nav {
+	background: url("../images/nav.png") no-repeat;
+	width: 300px;
+	height: 30px;
+	margin-top: 20px;
 	float: right;
 }
 
-header ul li {
+nav li {
 	width: 100px;
-	height: 50px;
-	margin: 0 10px 0 0;
 	float: left;
-	text-decoration: none;
-	list-style: none;
+	list-style-type: none;
 }
-/* ========================= Heading 1 =========================*/
 
-#cta {
+nav a {
+	height: 30px;
+	display: block;
+	background: url(../images/nav.png) no-repeat 0 0;
+	text-indent: -20000px;
+}
 
-	font-family: Arial, sans-serif;
-	color: #061917;
-	padding: 10px;
+#product a:hover {
+	background-position: 0 -30px;
+}
+
+#product a:active {
+	background-position: 0 -60px;
+}
+
+/* =============== Shop Button ===========*/
+
+#shop a {
+	background-position: -100px 0;
+}
+
+#shop a:hover {
+	background-position: -100px -30px;
+}
+
+#shop a:active {
+	background-position: -100px -60px;
+}
+
+
+/* ============ Support button ==========*/
+#support a {
+	background-position: -200px 0;
+}
+
+#support a:hover {
+	background-position: -200px -30px;
+}
+
+#support a:active {
+	background-position: -200px -60px;
+}
+
+/* ============== Page Wrapper ==============*/
+#page-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#page-wrapper h1 {
+	color: #e2fbff;
+	font-weight: normal;
+	font-family: Century Gothic,verdana,arial,helvetica,sans-serif;
+	margin-top: 23px;
+	padding-left: 20px;
+	position: absolute;
+	text-decoration: none;
+}
+
+#page-wrapper img {
+	margin-top: 20px;
+}
+
+/* ============== Main Page==============*/
+#main-page-bg {
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eeeeee 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #eeeeee 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(top, #eeeeee 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	color: #002832;
+	margin: 23px auto 0;
+	padding: 20px;
+	line-height: 25px;
+	border-radius: 0 0 10px 10px;
+	margin-bottom: 10px;
+}
+
+#main-page-bg a {
+	width: 150px;
+	height: 40px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+#main-page-bg a:hover {
+	width: 150px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+
+#main-page-bg p {
+	margin-bottom: 15px;
+}
+
+.button {
+	width: 150px;
+	background: rgb(5,88,109); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(5,88,109,1) 0%, rgba(96,171,248,1) 1%, rgba(5,88,109,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(5,88,109,1)), color-stop(1%,rgba(96,171,248,1)), color-stop(100%,rgba(5,88,109,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(5,88,109,1) 0%,rgba(96,171,248,1) 1%,rgba(5,88,109,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(5,88,109,1) 0%,rgba(96,171,248,1) 1%,rgba(5,88,109,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(5,88,109,1) 0%,rgba(96,171,248,1) 1%,rgba(5,88,109,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(5,88,109,1) 0%,rgba(96,171,248,1) 1%,rgba(5,88,109,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05586d', endColorstr='#05586d',GradientType=0 ); /* IE6-9 */
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.button:hover {
+	width: 150px;
+	background: rgb(183,222,237); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(183,222,237,1)), color-stop(50%,rgba(113,206,239,1)), color-stop(51%,rgba(33,180,226,1)), color-stop(100%,rgba(183,222,237,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 ); /* IE6-9 */
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+/* ============== Main Content ==============*/
+#main-content {
+	width: 599px;
+	padding: 20px 0 20px 0;
+	color: #eee;
+	background-color: #05586d;
+	border-radius: 10px 0 0 10px;
+	float: left;
+}
+
+#main-content p, dl {
+	padding: 20px;
 	line-height: 25px;
 }
 
-/* ========================= Section =========================*/
-
-section {
-	font-family: Arial, sans-serif;
-	float: left
+h2 {
+	background: #72ccda;
+	padding-left: 20px;
+	color: #05586d;
+	width: 90%;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 0 5px 5px 0;
 }
 
-/* ========================= side =========================*/
+dl dd {
+	border-bottom: 1px dotted #000;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
 
-aside {
-	width: 360px;
+#main-content ul {
+	list-style-type: none;
+	padding: 0 20px 20px 20px;
+}
+
+#main-content ul li {
 	float: left;
+	margin: 0 20px 0 0;
+	opacity: 0.5;
 }
 
-/* =========================  =========================*/
+#main-content ul li:hover {
+	float: left;
+	margin: 0 20px 0 0;
+	opacity: 1;
+}
 
-/* =========================  =========================*/
+/* ============== Sidebar ==============*/
+aside {
+	width: 351px;
+	padding-top: 20px;
+	line-height: 25px;
+	background-color: #eee;
+	border-radius: 0 10px 10px 0;
+	float: right;
+}
 
-/* ========================= footer =========================*/
+aside ul {
+	padding: 20px;
+	list-style-type: square;
+}
+
+
+aside h2 {
+	color: #eee;
+}
+
+/* ============== Footer ==============*/
 footer {
+	width: 960px;
+	font-size: .8em;
+	color: #ccc;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
 	clear: both;
+	text-align: center;
 }
+
+/* ============== ==============*/
