@@ -1,0 +1,267 @@
+aside, article, section, header, footer, nav {
+	display: block;
+}
+aside, article, section, header, footer, nav, html, body, p, h1, h2, h3, div {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: url(../img/bg.jpg) no-repeat #000;
+	width: 100%;
+}
+body {
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 10px;
+	font: 90%/1.6 'palatino linotype', georgia,serif;
+}
+
+/* Main Content Styling*/
+header {
+	padding: 50px 25px 10px 0;
+	color: #fff;
+	margin-bottom: 2em;
+	margin-top: 300px;
+}
+h1 {
+	text-align: left;
+	padding-left: 40px;
+	color: #654321;
+	font-size: 3em;
+	font-weight: normal;
+	font-variant: small-caps;
+	letter-spacing: .1em;
+}
+
+p {
+	margin-bottom: 1em;
+}
+article {
+	text-align: left;
+}
+article h2 {
+	font-size: 2em;
+	font-weight: normal;
+	margin-bottom: .2em;
+}
+article p {
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+aside {
+	font: .9em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+aside h2 {
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+footer {
+	background: #686D7B;
+	font: 1.2em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	text-align: center;
+	color: #fff;
+}
+/*layout styles*/
+@media all and (min-width: 780px) {
+/*layout*/
+body {
+	width: 85%;
+/*	max-width: 1280px;
+	min-width: 960px;*/
+}
+article {
+	float: left;
+	width: 64%;
+	padding-left: 2.5%;
+}
+
+h1 {
+	font-size: 5em;
+	float: left;
+}
+
+#nav {
+	width: 50%;
+	float: right;
+}
+
+#nav ul li {
+	text-decoration: none;
+	float: left;
+	background-color: #654323;
+	width: 21%;
+	height: 35px;
+	margin: 0 0 0 10px;
+	text-align: center;
+	list-style-type: none;
+}
+
+#nav ul li a {
+	font-family: 'palatino linotype', georgia,serif;
+	font-size: 1.1em;
+	color: #f0f0f0;
+	line-height: 35px;
+	text-decoration: none;
+}
+
+#gallery li {
+	display: inline;
+	list-style-type: none;
+}
+
+article {
+	clear: both;
+}
+
+aside {
+	float: right;
+	width: 26%;
+	padding: 0 2.5%;
+	border-left: 1px solid #aaa;
+}
+section {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 2em;
+	-moz-column-gap: 2em;
+	column-gap: 2em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid black;
+}
+section:last-of-type {
+	border-bottom: none;
+}
+footer {
+	clear: both;
+	padding: 25px 0 15px;
+}
+}
+@media all and (min-width: 481px) and (max-width: 780px) {
+/*layout*/
+html {
+	background: url(../img/bg_2.jpg) no-repeat #000;
+}
+body {
+	width: 90%;
+/*	max-width: 780px;
+	min-width: 485px;*/
+	font-size: 80%;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+#nav ul li {
+	text-decoration: none;
+	float: left;
+	background-color: #654323;
+	width: 21%;
+	height: 35px;
+	margin-right: 1.041666666667%;
+	text-align: center;
+	list-style-type: none;
+}
+
+#nav ul li a {
+	font-family: 'palatino linotype', georgia,serif;
+	font-size: 1.1em;
+	color: #f0f0f0;
+	line-height: 35px;
+	text-decoration: none;
+}
+
+#gallery li {
+	list-style-type: none;
+	display: inline;
+}
+
+article {
+	margin-top: 1.5625%;
+	float: left;
+	width: 56%;
+	padding-left: 2.5%;
+}
+aside {
+	margin-top: 1.5625%;
+	float: right;
+	width: 34%;
+	padding: 0 2.5%;
+	border-left: 1px solid #aaa;
+}
+footer {
+	clear: both;
+	padding: 25px 0 15px;
+}
+
+/*content styles*/
+h1 {
+	font-size: 2.4em;
+}
+footer {
+	font-size: 1em;
+}
+}
+@media all and (max-width: 480px) {
+/*layout*/
+html {
+	background: url(../img/bg_3.jpg) no-repeat #000;
+}
+body {
+	width: 90%;
+	/*max-width: 480px;*/
+}
+
+#nav ul li {
+	text-decoration: none;
+	background-color: #654323;
+	border-radius: 0 10px 10px 0;
+	border-left: 5px solid #987536;
+	width: 90%;
+	margin-bottom: 5px;
+}
+
+#nav ul li a {
+	font-family: 'palatino linotype', georgia,serif;
+	font-size: 1.1em;
+	color: #f0f0f0;
+	padding-left: 2.5%;
+	text-decoration: none;
+}
+
+article {
+	padding: 0 5%;
+}
+footer {
+	padding: 25px 0 15px;
+}
+/*content styles*/
+header {
+	padding: 25px 15px 5px 0;
+}
+h1 {
+	text-align: center;
+	font-size: 3em;
+}
+
+#gallery li {
+	list-style-type: none;
+	display: inline;
+}
+article {
+	text-align: left;
+	margin-bottom: 1em;
+}
+aside {
+	border-top: 1px solid black;
+	padding: 1em 5% 0;
+	line-height: 2;
+}
+footer {
+	font-size: .7em;
+}
