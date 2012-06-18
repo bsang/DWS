@@ -1,0 +1,91 @@
+body {
+	margin: 0 auto;
+	background: #666;
+	font-family: Century Gothic, Arial, sans-serif;
+	font-size: .9em;
+}
+
+h1 {
+	font-family: Century Gothic, Arial, sans-serif;
+	font-weight: normal;
+	padding: 10px 0 0 20px;
+}
+
+#container {
+	width: 350px;
+	padding: 0 10px 10px 10px;
+	margin: 0 auto;
+	border-radius: 10px;
+	background: #f0f0f0;
+	height: 300px;
+}
+
+label {
+
+	width: 100px;
+	height: 25px;
+	line-height: 30px;
+	text-align: left;
+	display: block;
+	margin-right: 10px;
+}
+
+#words {
+	width: 320px;
+	font-family: Century Gothic, Arial, sans-serif;
+	height: 30px;
+	font-size: .9em;
+	line-height: 30px;
+	background: #222;
+	color: #ccc;
+	border: none;
+}
+
+#words option {
+	height: 30px;
+	background: #c2cac2;
+	color: #000;
+}
+
+#keywords {
+	width: 320px;
+	margin-top: 5px;
+	font-family: Century Gothic, Arial, sans-serif;
+	height: 30px;
+	font-size: .9em;
+	line-height: 30px;
+	background: #222;
+	color: #ccc;
+	border: none;
+}
+
+#searchin {
+	font-family: Century Gothic, Arial, sans-serif;
+	font-size: .9em;
+	width: 320px;
+	height: 30px;
+	color: #ccc;
+	background: #222;
+	border: none;
+}
+
+#searchin option {
+	height: 30px;
+	font-family: Century Gothic, Arial, sans-serif;
+	font-size: .9em;
+	background: #c2cac2;
+	color: #000;
+
+}
+
+#submit {
+	font-family: Century Gothic, Arial, sans-serif;
+	font-size: .9em;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	background: #021a34;
+	border: none;
+	color: #fff;
+}

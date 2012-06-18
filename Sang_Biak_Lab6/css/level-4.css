@@ -1,0 +1,26 @@
+#edit-profile {
+	background: #222;
+}
+
+#container {
+	width: 600px;
+	background: #f0f0f0;
+	padding: 10px;
+	margin: 0 auto;
+
+}
+
+label {
+	width: 150px;
+	text-align: right;
+	padding-right: 10px;
+	float: left;
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+.controls {
+	margin-left: 160px;
+}

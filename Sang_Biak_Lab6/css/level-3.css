@@ -1,0 +1,72 @@
+#sign-up {
+	background: #000;
+}
+
+#container{
+	width: 600px;
+	margin: 0 auto;
+	border-radius: 0 0 10px 10px;
+	padding: 10px;
+	background-color: #f0f0f0;
+}
+
+label {
+	width: 150px;
+	padding-right: 10px;
+	text-align: right;
+	display: block;
+	float: left;
+
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+#email {
+	width: 285px;
+}
+
+#password {
+	width: 285px;
+}
+
+#password_confirmation {
+	width: 285px;
+}
+
+#section-dob {
+	margin-top: 20px;
+	border: none;
+}
+
+legend span {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+
+#dob_month {
+	width: 285px;
+}
+
+#section-dob label {
+	width: 135px;
+	display: block;
+}
+
+#dob_day {
+	width: 285px;
+}
+
+#dob_year {
+	width: 285px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+#submit {
+	float: left;
+}
+
